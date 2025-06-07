@@ -71,5 +71,5 @@ client = MongoClient("mongodb+srv://<username>:<password>@cluster0.b4j8abw.mongo
 ```bash
 python model_train.py
 ```
-This will generate `churn_model.pkl` and `scaler.pkl` in the `models` folder.
+- This will generate `churn_model.pkl` and `scaler.pkl` in the `models` folder.
 
