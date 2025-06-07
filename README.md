@@ -41,10 +41,16 @@ This project is a machine learning-based system designed to predict customer chu
 
 ---
 
-## Installation
+## Installation and Setup
 
 ### Prerequisites
 
 - **Python 3.8 or higher**
 - **MongoDB Atlas account** (or local MongoDB instance)
 - **Git** (optional, for cloning the repository)
+
+### Install Dependencies
+
+```
+pip install -r requirements.txt
+```
