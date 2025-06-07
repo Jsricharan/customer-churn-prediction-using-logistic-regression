@@ -38,3 +38,13 @@ This project is a machine learning-based system designed to predict customer chu
 
 ### Database
 - **MongoDB:** NoSQL database for storing user credentials and prediction logs.
+
+---
+
+## Installation and Setup
+
+### Prerequisites
+
+- **Python 3.8 or higher**
+- **MongoDB Atlas account** (or a local MongoDB instance)
+- **Git** (optional, for cloning the repository)
