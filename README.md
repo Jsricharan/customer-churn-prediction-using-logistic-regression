@@ -62,3 +62,12 @@ pip install -r requirements.txt
 ```python
 client = MongoClient("mongodb+srv://<username>:<password>@cluster0.b4j8abw.mongodb.net/")
 ```
+### Train the Model
+
+- Place your dataset (`BankCustomerData.csv`) in the `datasets` folder.
+
+- Run the model training script:
+
+```bash
+python model_train.py
+```
