@@ -18,3 +18,23 @@ This project is a machine learning-based system designed to predict customer chu
 - **Batch Prediction:** Supports bulk predictions by uploading CSV files.
 
 - **Data Preprocessing:** Includes normalization and feature selection to improve model accuracy.
+
+---
+
+## Technologies Used
+
+### Backend
+- **Flask:** Web framework for handling routing, sessions, and API endpoints.
+- **PyMongo:** MongoDB integration for storing user data and prediction history.
+- **Werkzeug:** Password hashing and security utilities.
+
+### Machine Learning
+- **Scikit-learn:** Implements the Logistic Regression model and data preprocessing.
+- **Pickle:** Serializes and saves the trained model for reuse.
+- **NumPy & Pandas:** Handles numerical operations and data manipulation.
+
+### Frontend
+- **HTML, CSS, JavaScript:** Builds the interactive user interface and dashboard.
+
+### Database
+- **MongoDB:** NoSQL database for storing user credentials and prediction logs.
