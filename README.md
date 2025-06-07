@@ -49,12 +49,12 @@ This project is a machine learning-based system designed to predict customer chu
 - **MongoDB Atlas account** (or local MongoDB instance)
 - **Git** (optional, for cloning the repository)
 
-### Install Dependencies
+### 1. Install Dependencies
 
 ```
 pip install -r requirements.txt
 ```
-### Set Up MongoDB
+### 2. Set Up MongoDB
 
 - Create a MongoDB Atlas account or set up a local MongoDB instance.
 - Update the MongoDB connection string in `app.py`:
@@ -62,7 +62,7 @@ pip install -r requirements.txt
 ```python
 client = MongoClient("mongodb+srv://<username>:<password>@cluster0.b4j8abw.mongodb.net/")
 ```
-### Train the Model
+### 3. Train the Model
 
 - Place your dataset (`BankCustomerData.csv`) in the `datasets` folder.
 
@@ -73,14 +73,14 @@ python model_train.py
 ```
 - This will generate `churn_model.pkl` and `scaler.pkl` in the `models` folder.
 
-### Run the Application
+### 4. Run the Application
 
 ```bash
 python app.py
 ```
 - The application will start at [http://127.0.0.1:5000](http://127.0.0.1:5000).
 
-### Access the Web Interface
+### 5. Access the Web Interface
 
 - Open a browser and navigate to [http://127.0.0.1:5000](http://127.0.0.1:5000).
 - Register or log in to start using the churn prediction system.
