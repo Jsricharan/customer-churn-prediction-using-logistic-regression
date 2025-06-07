@@ -73,3 +73,16 @@ python model_train.py
 ```
 - This will generate `churn_model.pkl` and `scaler.pkl` in the `models` folder.
 
+### Run the Application
+
+```bash
+python app.py
+```
+- The application will start at [http://127.0.0.1:5000](http://127.0.0.1:5000).
+
+### Access the Web Interface
+
+- Open a browser and navigate to [http://127.0.0.1:5000](http://127.0.0.1:5000).
+- Register or log in to start using the churn prediction system.
+
+
