@@ -54,3 +54,11 @@ This project is a machine learning-based system designed to predict customer chu
 ```
 pip install -r requirements.txt
 ```
+### Set Up MongoDB
+
+- Create a MongoDB Atlas account or set up a local MongoDB instance.
+- Update the MongoDB connection string in `app.py`:
+
+```python
+client = MongoClient("mongodb+srv://<username>:<password>@cluster0.b4j8abw.mongodb.net/")
+```
