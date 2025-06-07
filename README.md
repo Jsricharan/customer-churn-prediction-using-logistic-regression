@@ -85,4 +85,33 @@ python app.py
 - Open a browser and navigate to [http://127.0.0.1:5000](http://127.0.0.1:5000).
 - Register or log in to start using the churn prediction system.
 
+---
+
+## Usage
+
+### Single Prediction
+
+- Navigate to the **Explorer** tab.
+- Adjust sliders or input fields for customer attributes.
+- View the churn probability and risk level.
+
+### Batch Prediction
+
+- Navigate to the **Batch** tab.
+- Upload a CSV file containing customer data.
+- View and download predictions for all records.
+
+### View History
+
+- Navigate to the **History** tab to see past predictions.
+
+---
+
+## Future Enhancements
+
+- **Real-Time Alerts:** Notify businesses when high-risk churn customers are identified.
+- **Advanced Models:** Experiment with Random Forest, XGBoost, or neural networks.
+---
+
+
 
